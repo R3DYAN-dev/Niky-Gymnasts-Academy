@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Niky Gymnasts Academy</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #fdfdfd;
+        color: #333;
+    }
+    header {
+        background: #ff4f81;
+        color: white;
+        padding: 2rem;
+        text-align: center;
+    }
+    header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+    header p {
+        font-size: 1.2rem;
+    }
+    nav {
+        margin-top: 1rem;
+    }
+    nav a {
+        background: white;
+        color: #ff4f81;
+        padding: 0.6rem 1.2rem;
+        margin: 0.5rem;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    section {
+        max-width: 900px;
+        margin: auto;
+        padding: 2rem;
+    }
+    .programs {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+    .program {
+        background: #fff3f7;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+        text-align: center;
+        padding: 1.5rem;
+        background: #ff4f81;
+        color: white;
+    }
+    .contact-btn {
+        display: inline-block;
+        background: #ff4f81;
+        color: white;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Niky Gymnasts Academy</h1>
+    <p>Helping students reach new heights, one flip at a time</p>
+    <nav>
+        <a href="tel:+17875332763">📞 Call Now</a>
+        <a href="mailto:nikygym@gmail.com">✉ Email Us</a>
+    </nav>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <p>At Niky Gymnasts Academy, we offer personalized gymnastics training for children and adults of all skill levels. Our certified instructors focus on safety, technique, and fun, ensuring every student builds strength, flexibility, and confidence.</p>
+</section>
+
+<section>
+    <h2>Programs Offered</h2>
+    <div class="programs">
+        <div class="program">
+            <h3>Private Lessons</h3>
+            <p>One-on-one coaching tailored to your needs and goals.</p>
+        </div>
+        <div class="program">
+            <h3>Group Classes</h3>
+            <p>Fun, energetic sessions for students to learn together.</p>
+        </div>
+        <div class="program">
+            <h3>Kids Gymnastics</h3>
+            <p>Safe and exciting classes designed for young learners.</p>
+        </div>
+        <div class="program">
+            <h3>Competition Prep</h3>
+            <p>Focused training for competitive gymnastics events.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <p>📞 Phone: <a href="tel:+17875332763">787-533-2763</a></p>
+    <p>✉ Email: <a href="mailto:nikygym@gmail.com">nikygym@gmail.com</a></p>
+    <a class="contact-btn" href="mailto:nikygym@gmail.com">Send a Message</a>
+</section>
+
+<footer>
+    <p>© 2025 Niky Gymnasts Academy. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
